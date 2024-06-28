@@ -12,7 +12,7 @@ enum Constants {
     static let secondsInDay = Self.secondsInHour * 24
 }
 
-public enum Status: Codable, Equatable {
+public enum Status: Int, Codable, Equatable {
     case new, learning, review, relearning
 }
 
